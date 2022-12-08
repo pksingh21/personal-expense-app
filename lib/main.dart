@@ -34,7 +34,7 @@ class MyHomePage extends StatelessWidget {
                 onPressed: () {
                   print("icon was pressed");
                 },
-                icon: Icon(Icons.add))
+                icon: Icon(Icons.abc))
           ],
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,

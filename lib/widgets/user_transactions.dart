@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import './new_transactions.dart';
 import './transaction_list.dart';
 import '../models/transaction.dart';
 
@@ -8,7 +7,7 @@ class UserTransactions extends StatefulWidget {
   const UserTransactions({Key? key}) : super(key: key);
 
   @override
-  State<UserTransactions> createState() => _UserTransactionsState();
+  State<UserTransactions> createState() => UserTransactionsState();
 }
 
 class _UserTransactionsState extends State<UserTransactions> {
